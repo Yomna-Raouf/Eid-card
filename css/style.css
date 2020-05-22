@@ -226,3 +226,23 @@ option {
 
  }
 
+ @media (max-width: 370px) {
+    .banner-heading {
+        height: 310px;
+        width: 300px;
+    }
+    .name-input, select {
+    width: 300px;
+    }
+
+    .banner, img {
+        height: 380px;
+        width: 380px;
+    }
+    .name {
+        left: 134px;
+        top: 291px;
+    }
+
+ }
+
