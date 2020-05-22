@@ -173,8 +173,8 @@ option {
 	}
 
 	.name {
-		left: 350px;
-    	bottom: 5px;
+		 left: 290px;
+    top: 481px;
 	}
 
 	 .entered-name::before {
