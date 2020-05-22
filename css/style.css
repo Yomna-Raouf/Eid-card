@@ -5,6 +5,7 @@ body {
 
 
 .container {
+	position:fixed;
 	margin: 0 auto;
 	background:  linear-gradient(to right, rgb(5, 85, 136), rgb(243, 247, 251));
 	width: 100%;
@@ -226,13 +227,22 @@ option {
 
  }
 
+
  @media (max-width: 370px) {
     .banner-heading {
-        height: 310px;
+        height: 290px;
         width: 300px;
+        margin-bottom: 20px;
     }
+
+    .arrow {
+    font-size: 35px;
+    margin-bottom: 10px;
+    }
+
     .name-input, select {
     width: 300px;
+    margin-bottom: 15px;
     }
 
     .banner, img {
@@ -244,5 +254,9 @@ option {
         top: 291px;
     }
 
+    .banner-btn {
+    width: 150px;
+    }
  }
+
 
