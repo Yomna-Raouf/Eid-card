@@ -123,8 +123,8 @@ option {
 .name {
 	position: absolute;
     z-index: 100;
-    top: 510px;
-    left: 450px;
+    top: 500px;
+    left: 350px;
 	font-size: 30px;
     font-family: sans-serif;
     letter-spacing: 1px;
