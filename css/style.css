@@ -260,4 +260,10 @@ option {
     }
  }
 
-
+@media (max-width: 300px) {
+	 .name {
+        left: 120px;
+        top: 270px;
+    }
+}
+	 
