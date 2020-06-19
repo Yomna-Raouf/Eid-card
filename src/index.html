@@ -1,6 +1,6 @@
  <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 	<title>كل عام وانتم بخير</title>
 </head>
 <body>
-	<audio src="assets/audio.mp3" id="my_audio" autoplay="autoplay"></audio>
+	<audio src="assets/audio.mp3" id="my_audio" autoplay></audio>
 	<div class="container">
 		<div class="party">
 			<div> <img src="assets/balloon.png" alt=""></div>
@@ -34,7 +34,7 @@
                 <i class="fas fa-chevron-down"></i>
             </div>
             
-            	<input class="name-input" type="text" placeholder="Type Your Name"  name="">
+            	<input class="name-input" type="text" placeholder="Type Your Name"  name="" value="">
             	<!-- <select id="Selected-option" name="gender">
 		           <option   value="0" name="bro" > أخوكم</option>
 		           <option   value="1"  name="sis"> أختكم</option>
@@ -50,12 +50,15 @@
 				<p class="author-name"></p>
 			</div>
 			<img src="assets/eid.jpg" alt="">  
+			<canvas id="canvas"  width="700" height="700"></canvas>
+			<button class="load">Download</button>
 			<div class="x-btn">
             	&#10005;
         	</div>
 		</div>
 	</div>	
-	<script type="text/javascript srcdom-to-image.js"></script>
+
+	
 	<script type="text/javascript" src="./js/bundle.js"></script>
 
 </body>
